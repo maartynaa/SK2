@@ -89,14 +89,14 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
-        ConnectButton.setText("Połącz");
+        ConnectButton.setText("Connect");
         ConnectButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ConnectButtonActionPerformed(evt);
             }
         });
 
-        SendButton.setText("Wyślij ");
+        SendButton.setText("Send");
         SendButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SendButtonActionPerformed(evt);
